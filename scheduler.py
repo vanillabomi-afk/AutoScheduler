@@ -8,7 +8,10 @@ from zoneinfo import ZoneInfo
 WEBHOOK_URL = os.environ["DISCORD_WEBHOOK"]
 
 # Load schedule
-df = pd.read_csv("schedule.csv")
+df = pd.read_csv(
+    "schedule.csv",
+    dtype=str
+)
 
 # Current Melbourne time
 now = datetime.now(
