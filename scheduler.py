@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1511640772431057038/DNj4WlJv0sF27qAlFT4KQlvfKromuOSGrFUmynOqTkYhaATfsFxlxdmwiFW0ONALAzvq"
+WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK"
 
 df = pd.read_csv("schedule.csv")
 
