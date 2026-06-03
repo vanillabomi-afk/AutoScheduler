@@ -1,8 +1,7 @@
 name: Discord Scheduler
 
 on:
-  schedule:
-    - cron: "*/2 * * * *"
+  push:
   workflow_dispatch:
 
 permissions:
